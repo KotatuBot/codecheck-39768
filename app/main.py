@@ -7,3 +7,6 @@ def main(argv):
 
     for i, v in enumerate(argv):
         print("argv[{0}]: {1}".format(i, v))
+
+if __name__ == "__main__":
+    main(["python","go","c++"])
